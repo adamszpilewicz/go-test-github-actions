@@ -7,6 +7,7 @@ import (
 	"testing"
 )
 
+// test
 func TestAPIServer_HandleHello(t *testing.T) {
 	server := New(NewConfig())
 	rec := httptest.NewRecorder()
